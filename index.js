@@ -56,7 +56,7 @@ function *convertConfig(config){
  */
 
 /**
- *
+ * @param config : Array<configitem>
  */
 function alternativeInput(config){
 	let items = config.map(([label, accelerator, prompt, func])=>{
